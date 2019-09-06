@@ -2,6 +2,7 @@ import React from 'react';
 import ButtonClick from './button.js';
 import Accessibility from './components/Accessibility';
 
+const items = [{"id":1,"term":'Nonu', "description":"data language"}]
 class App extends React.Component {
  handleClick = () => {
     alert('hello world')
@@ -11,7 +12,7 @@ class App extends React.Component {
       <div >
         <button onClick={() => {document.getElementById("btn_id").click() }} >Zoom</button>
         <ButtonClick  />
-        <Accessibility />
+        <Accessibility items={items} />
       </div>
     );
   }

@@ -1,12 +1,10 @@
-import React from 'react';
-import ListItem from './ListItem.jsx';
+import React from "react";
+import ListItem from "./ListItem.jsx";
 
-const items = [{"id":1,"term":'Nonu', "description":"data language"}]
-
-function Accessibility() {
+function Accessibility(props) {
   return (
     <dl>
-      {items.map(item => (
+      {props.items.map(item => (
         <ListItem item={item} key={item.id} />
       ))}
     </dl>
