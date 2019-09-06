@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonClick from './button.js';
+import Accessibility from './components/Accessibility';
 
 class App extends React.Component {
  handleClick = () => {
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div >
         <button onClick={() => {document.getElementById("btn_id").click() }} >Zoom</button>
         <ButtonClick  />
+        <Accessibility />
       </div>
     );
   }
