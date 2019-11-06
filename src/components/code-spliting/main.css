@@ -1,0 +1,10 @@
+.container-main-div {
+    overflow: hidden;
+    overflow: auto;
+    border-bottom: 1px solid #e8e8e8 !important;
+    border-left: 1px solid #e8e8e8 !important;
+    border-right: 1px solid #e8e8e8 !important;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
